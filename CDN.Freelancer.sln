@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CDN.Freelancer.Api", "CDN.Freelancer.Api\CDN.Freelancer.Api.csproj", "{01887425-FACA-462A-AC38-AB0FA0B3DD7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CDN.Freelancer.Application", "CDN.Freelancer.Application\CDN.Freelancer.Application.csproj", "{4751C316-0CD0-4205-9D2D-B56AC4841117}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CDN.Freelancer.Domain", "CDN.Freelancer.Domain\CDN.Freelancer.Domain.csproj", "{56EDC8B9-E313-4F58-8FAF-9BEF57EAF22A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CDN.Freelancer.Infrastructure", "CDN.Freelancer.Infrastructure\CDN.Freelancer.Infrastructure.csproj", "{3721F1BF-C875-4C04-A0EC-B1C3F98BB930}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CDN.Freelancer.Tests", "CDN.Freelancer.Tests\CDN.Freelancer.Tests.csproj", "{4FBEA681-8427-4B6E-9EF3-5C66CA567B5D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01887425-FACA-462A-AC38-AB0FA0B3DD7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01887425-FACA-462A-AC38-AB0FA0B3DD7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01887425-FACA-462A-AC38-AB0FA0B3DD7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01887425-FACA-462A-AC38-AB0FA0B3DD7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4751C316-0CD0-4205-9D2D-B56AC4841117}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4751C316-0CD0-4205-9D2D-B56AC4841117}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4751C316-0CD0-4205-9D2D-B56AC4841117}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4751C316-0CD0-4205-9D2D-B56AC4841117}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56EDC8B9-E313-4F58-8FAF-9BEF57EAF22A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56EDC8B9-E313-4F58-8FAF-9BEF57EAF22A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56EDC8B9-E313-4F58-8FAF-9BEF57EAF22A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56EDC8B9-E313-4F58-8FAF-9BEF57EAF22A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3721F1BF-C875-4C04-A0EC-B1C3F98BB930}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3721F1BF-C875-4C04-A0EC-B1C3F98BB930}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3721F1BF-C875-4C04-A0EC-B1C3F98BB930}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3721F1BF-C875-4C04-A0EC-B1C3F98BB930}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FBEA681-8427-4B6E-9EF3-5C66CA567B5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FBEA681-8427-4B6E-9EF3-5C66CA567B5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FBEA681-8427-4B6E-9EF3-5C66CA567B5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FBEA681-8427-4B6E-9EF3-5C66CA567B5D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

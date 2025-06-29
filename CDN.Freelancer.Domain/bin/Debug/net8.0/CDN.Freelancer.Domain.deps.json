@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "CDN.Freelancer.Domain/1.0.0": {
+        "runtime": {
+          "CDN.Freelancer.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CDN.Freelancer.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelancer Management System</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1><i class="fas fa-users"></i> Freelancer Management System</h1>
+            <p>A comprehensive API demonstration with validation, pagination, and error handling</p>
+        </header>
+
+        <div class="main-content">
+            <!-- Navigation Tabs -->
+            <div class="tabs">
+                <button class="tab-btn active" onclick="showTab('list')">
+                    <i class="fas fa-list"></i> View Freelancers
+                </button>
+                <button class="tab-btn" onclick="showTab('create')">
+                    <i class="fas fa-plus"></i> Create Freelancer
+                </button>
+                <button class="tab-btn" onclick="showTab('search')">
+                    <i class="fas fa-search"></i> Search
+                </button>
+                <button class="tab-btn" onclick="showTab('validation')">
+                    <i class="fas fa-exclamation-triangle"></i> Test Validation
+                </button>
+            </div>
+
+            <!-- Tab Content -->
+            <div class="tab-content">
+                <!-- List Freelancers Tab -->
+                <div id="list" class="tab-pane active">
+                    <div class="section-header">
+                        <h2>Freelancers List</h2>
+                        <div style="display: flex; align-items: center; gap: 1rem;">
+                            <label style="font-weight: normal;">
+                                <input type="checkbox" id="showArchivedToggle" onchange="loadFreelancers()"> Show Archived
+                            </label>
+                            <div class="pagination-controls">
+                                <label>Page Size: 
+                                    <select id="pageSize" onchange="loadFreelancers()">
+                                        <option value="5">5</option>
+                                        <option value="10" selected>10</option>
+                                        <option value="20">20</option>
+                                        <option value="50">50</option>
+                                    </select>
+                                </label>
+                                <div class="pagination-buttons">
+                                    <button onclick="previousPage()" id="prevBtn" disabled>
+                                        <i class="fas fa-chevron-left"></i> Previous
+                                    </button>
+                                    <span id="pageInfo">Page 1</span>
+                                    <button onclick="nextPage()" id="nextBtn">
+                                        Next <i class="fas fa-chevron-right"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="freelancersList" class="freelancers-grid">
+                        <div class="loading">Loading freelancers...</div>
+                    </div>
+                </div>
+
+                <!-- Create Freelancer Tab -->
+                <div id="create" class="tab-pane">
+                    <div class="section-header">
+                        <h2>Create New Freelancer</h2>
+                    </div>
+                    <form id="createForm" class="form">
+                        <div class="form-group">
+                            <label for="username">Username *</label>
+                            <input type="text" id="username" name="username" required>
+                            <small>3-50 characters, letters, numbers, and underscores only</small>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phoneNumber">Phone Number *</label>
+                            <input type="tel" id="phoneNumber" name="phoneNumber" required>
+                            <small>International format (e.g., +1234567890)</small>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Skillsets</label>
+                            <div id="skillsetsContainer">
+                                <div class="skill-item">
+                                    <input type="text" class="skill-input" placeholder="Enter skill name">
+                                    <button type="button" class="remove-btn" onclick="removeSkill(this)">
+                                        <i class="fas fa-times"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <button type="button" class="add-btn" onclick="addSkill()">
+                                <i class="fas fa-plus"></i> Add Skill
+                            </button>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Hobbies</label>
+                            <div id="hobbiesContainer">
+                                <div class="hobby-item">
+                                    <input type="text" class="hobby-input" placeholder="Enter hobby name">
+                                    <button type="button" class="remove-btn" onclick="removeHobby(this)">
+                                        <i class="fas fa-times"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <button type="button" class="add-btn" onclick="addHobby()">
+                                <i class="fas fa-plus"></i> Add Hobby
+                            </button>
+                        </div>
+
+                        <div class="form-actions">
+                            <button type="submit" class="btn btn-primary">
+                                <i class="fas fa-save"></i> Create Freelancer
+                            </button>
+                            <button type="reset" class="btn btn-secondary">
+                                <i class="fas fa-undo"></i> Reset
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Search Tab -->
+                <div id="search" class="tab-pane">
+                    <div class="section-header">
+                        <h2>Search Freelancers</h2>
+                    </div>
+                    <div class="search-form">
+                        <div class="search-input-group">
+                            <input type="text" id="searchQuery" placeholder="Search by username or email...">
+                            <button onclick="searchFreelancers()" class="btn btn-primary">
+                                <i class="fas fa-search"></i> Search
+                            </button>
+                        </div>
+                        <div class="pagination-controls">
+                            <label>Page Size: 
+                                <select id="searchPageSize" onchange="searchFreelancers()">
+                                    <option value="5">5</option>
+                                    <option value="10" selected>10</option>
+                                    <option value="20">20</option>
+                                    <option value="50">50</option>
+                                </select>
+                            </label>
+                            <div class="pagination-buttons">
+                                <button onclick="previousSearchPage()" id="searchPrevBtn" disabled>
+                                    <i class="fas fa-chevron-left"></i> Previous
+                                </button>
+                                <span id="searchPageInfo">No results</span>
+                                <button onclick="nextSearchPage()" id="searchNextBtn" disabled>
+                                    Next <i class="fas fa-chevron-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="searchResults" class="freelancers-grid">
+                        <div class="no-results">Enter a search query to find freelancers</div>
+                    </div>
+                </div>
+
+                <!-- Validation Test Tab -->
+                <div id="validation" class="tab-pane">
+                    <div class="section-header">
+                        <h2>Test API Validation</h2>
+                        <p>Try submitting invalid data to see the validation in action</p>
+                    </div>
+                    <div class="validation-tests">
+                        <div class="test-case">
+                            <h3>Test Case 1: Invalid Username</h3>
+                            <button onclick="testInvalidUsername()" class="btn btn-warning">
+                                Test Short Username
+                            </button>
+                        </div>
+                        <div class="test-case">
+                            <h3>Test Case 2: Invalid Email</h3>
+                            <button onclick="testInvalidEmail()" class="btn btn-warning">
+                                Test Invalid Email
+                            </button>
+                        </div>
+                        <div class="test-case">
+                            <h3>Test Case 3: Invalid Phone</h3>
+                            <button onclick="testInvalidPhone()" class="btn btn-warning">
+                                Test Invalid Phone
+                            </button>
+                        </div>
+                        <div class="test-case">
+                            <h3>Test Case 4: Invalid Pagination</h3>
+                            <button onclick="testInvalidPagination()" class="btn btn-warning">
+                                Test Invalid Pagination
+                            </button>
+                        </div>
+                    </div>
+                    <div id="validationResults" class="validation-results">
+                        <h3>Validation Results</h3>
+                        <pre id="validationOutput">Click a test case above to see validation results...</pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Notification Area -->
+        <div id="notification" class="notification"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 

@@ -1,0 +1,17 @@
+C:\Users\User\freelance assessment\CDN.Freelancer.Infrastructure\obj\Debug\net8.0\CDN.Freelancer.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\User\freelance assessment\CDN.Freelancer.Infrastructure\obj\Debug\net8.0\CDN.Freelancer.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\freelance assessment\CDN.Freelancer.Infrastructure\obj\Debug\net8.0\CDN.Freelancer.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\User\freelance assessment\CDN.Freelancer.Infrastructure\obj\Debug\net8.0\CDN.Freelancer.Infrastructure.AssemblyInfo.cs
+C:\Users\User\freelance assessment\CDN.Freelancer.Infrastructure\obj\Debug\net8.0\CDN.Freelancer.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\User\freelance assessment\CDN.Freelancer.Infrastructure\bin\Debug\net8.0\CDN.Freelancer.Infrastructure.deps.json
+C:\Users\User\freelance assessment\CDN.Freelancer.Infrastructure\bin\Debug\net8.0\CDN.Freelancer.Infrastructure.runtimeconfig.json
+C:\Users\User\freelance assessment\CDN.Freelancer.Infrastructure\bin\Debug\net8.0\CDN.Freelancer.Infrastructure.dll
+C:\Users\User\freelance assessment\CDN.Freelancer.Infrastructure\bin\Debug\net8.0\CDN.Freelancer.Infrastructure.pdb
+C:\Users\User\freelance assessment\CDN.Freelancer.Infrastructure\bin\Debug\net8.0\CDN.Freelancer.Domain.dll
+C:\Users\User\freelance assessment\CDN.Freelancer.Infrastructure\bin\Debug\net8.0\CDN.Freelancer.Domain.pdb
+C:\Users\User\freelance assessment\CDN.Freelancer.Infrastructure\obj\Debug\net8.0\CDN.Free.8C484EAC.Up2Date
+C:\Users\User\freelance assessment\CDN.Freelancer.Infrastructure\obj\Debug\net8.0\CDN.Freelancer.Infrastructure.dll
+C:\Users\User\freelance assessment\CDN.Freelancer.Infrastructure\obj\Debug\net8.0\refint\CDN.Freelancer.Infrastructure.dll
+C:\Users\User\freelance assessment\CDN.Freelancer.Infrastructure\obj\Debug\net8.0\CDN.Freelancer.Infrastructure.pdb
+C:\Users\User\freelance assessment\CDN.Freelancer.Infrastructure\obj\Debug\net8.0\CDN.Freelancer.Infrastructure.genruntimeconfig.cache
+C:\Users\User\freelance assessment\CDN.Freelancer.Infrastructure\obj\Debug\net8.0\ref\CDN.Freelancer.Infrastructure.dll

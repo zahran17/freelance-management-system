@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "F1qQwYqbCNo=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\User\\freelance assessment\\CDN.Freelancer.Application\\CDN.Freelancer.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\fluentvalidation\\12.0.0\\fluentvalidation.12.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

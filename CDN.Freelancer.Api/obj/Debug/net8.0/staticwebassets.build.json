@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "yEPuqL2fp0oW7mkNaauj4xZXdfoi2nhNWVBBNqjSVuA=",
+  "Source": "CDN.Freelancer.Api",
+  "BasePath": "_content/CDN.Freelancer.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

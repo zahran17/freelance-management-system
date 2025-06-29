@@ -1,0 +1,11 @@
+C:\Users\User\freelance assessment\CDN.Freelancer.Domain\bin\Debug\net8.0\CDN.Freelancer.Domain.deps.json
+C:\Users\User\freelance assessment\CDN.Freelancer.Domain\bin\Debug\net8.0\CDN.Freelancer.Domain.dll
+C:\Users\User\freelance assessment\CDN.Freelancer.Domain\bin\Debug\net8.0\CDN.Freelancer.Domain.pdb
+C:\Users\User\freelance assessment\CDN.Freelancer.Domain\obj\Debug\net8.0\CDN.Freelancer.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\freelance assessment\CDN.Freelancer.Domain\obj\Debug\net8.0\CDN.Freelancer.Domain.AssemblyInfoInputs.cache
+C:\Users\User\freelance assessment\CDN.Freelancer.Domain\obj\Debug\net8.0\CDN.Freelancer.Domain.AssemblyInfo.cs
+C:\Users\User\freelance assessment\CDN.Freelancer.Domain\obj\Debug\net8.0\CDN.Freelancer.Domain.csproj.CoreCompileInputs.cache
+C:\Users\User\freelance assessment\CDN.Freelancer.Domain\obj\Debug\net8.0\CDN.Freelancer.Domain.dll
+C:\Users\User\freelance assessment\CDN.Freelancer.Domain\obj\Debug\net8.0\refint\CDN.Freelancer.Domain.dll
+C:\Users\User\freelance assessment\CDN.Freelancer.Domain\obj\Debug\net8.0\CDN.Freelancer.Domain.pdb
+C:\Users\User\freelance assessment\CDN.Freelancer.Domain\obj\Debug\net8.0\ref\CDN.Freelancer.Domain.dll

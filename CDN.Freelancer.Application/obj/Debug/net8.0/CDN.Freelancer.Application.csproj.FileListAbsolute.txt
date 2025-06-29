@@ -1,0 +1,15 @@
+C:\Users\User\freelance assessment\CDN.Freelancer.Application\obj\Debug\net8.0\CDN.Freelancer.Application.csproj.AssemblyReference.cache
+C:\Users\User\freelance assessment\CDN.Freelancer.Application\obj\Debug\net8.0\CDN.Freelancer.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\freelance assessment\CDN.Freelancer.Application\obj\Debug\net8.0\CDN.Freelancer.Application.AssemblyInfoInputs.cache
+C:\Users\User\freelance assessment\CDN.Freelancer.Application\obj\Debug\net8.0\CDN.Freelancer.Application.AssemblyInfo.cs
+C:\Users\User\freelance assessment\CDN.Freelancer.Application\obj\Debug\net8.0\CDN.Freelancer.Application.csproj.CoreCompileInputs.cache
+C:\Users\User\freelance assessment\CDN.Freelancer.Application\bin\Debug\net8.0\CDN.Freelancer.Application.deps.json
+C:\Users\User\freelance assessment\CDN.Freelancer.Application\bin\Debug\net8.0\CDN.Freelancer.Application.dll
+C:\Users\User\freelance assessment\CDN.Freelancer.Application\bin\Debug\net8.0\CDN.Freelancer.Application.pdb
+C:\Users\User\freelance assessment\CDN.Freelancer.Application\bin\Debug\net8.0\CDN.Freelancer.Domain.dll
+C:\Users\User\freelance assessment\CDN.Freelancer.Application\bin\Debug\net8.0\CDN.Freelancer.Domain.pdb
+C:\Users\User\freelance assessment\CDN.Freelancer.Application\obj\Debug\net8.0\CDN.Free.6C9E67A1.Up2Date
+C:\Users\User\freelance assessment\CDN.Freelancer.Application\obj\Debug\net8.0\CDN.Freelancer.Application.dll
+C:\Users\User\freelance assessment\CDN.Freelancer.Application\obj\Debug\net8.0\refint\CDN.Freelancer.Application.dll
+C:\Users\User\freelance assessment\CDN.Freelancer.Application\obj\Debug\net8.0\CDN.Freelancer.Application.pdb
+C:\Users\User\freelance assessment\CDN.Freelancer.Application\obj\Debug\net8.0\ref\CDN.Freelancer.Application.dll

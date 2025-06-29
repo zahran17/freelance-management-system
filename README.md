@@ -33,13 +33,6 @@ A full-stack, clean-architecture project for managing freelancers, featuring a .
   frontend/                      # HTML/CSS/JS frontend
 ```
 
----
-
-## 🖥️ Screenshots
-_Add screenshots of the UI and Swagger if desired._
-
----
-
 ## ⚡ Getting Started
 
 ### Prerequisites
